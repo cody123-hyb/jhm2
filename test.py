@@ -12,7 +12,19 @@ data ={
 print("Original DataFrame:")
 print(df)
 
-#Step 3:Access specific columns
-print("\nAccess the 'Name' column:")
+
+df = pd.DataFrame(my_dict)
+
+print(df)
+
 print(df['Name'])
 
+print(df.iloc[1])
+
+df['Salary'] = [70000, 80000, 75000]
+print(df)
+
+filtered_df = df[df['Age'] > 28]
+print(filtered_df)
+
+average_salary = df['Salary'].mean()

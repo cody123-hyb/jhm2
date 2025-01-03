@@ -1,5 +1,5 @@
-fruits = ["蘋果", "香蕉", "橙子"]
-for fruit in fruits:
-    if fruit == "香蕉":
-        continue
-    print(fruit)
+sum = 0
+i = 1
+while i <= 10:
+    sum += i
+    i += 1

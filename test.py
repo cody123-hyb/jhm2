@@ -6,7 +6,7 @@ data ={
     'Age':[25,30,35],
     'City':['New York','Los Angeles','Chicago']
 }
- df  =pd.DataFrame(data)
+df  =pd.DataFrame(data)
 
 #Step 2:Display the DataFrame
 print("Original DataFrame:")

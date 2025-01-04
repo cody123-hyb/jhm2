@@ -6,11 +6,10 @@ Data = {
     'Amount': [],
     'Type': [] 
 }
-print("Date Category,Amount,Type")
 df = pd.DataFrame(Data)
 import os
-if os.path.isfile('expenses.csv'):
-    df = pd.read_csv('expenses.csv')#, index_col=0)
+if os.path.isfile('资料表'):
+    df = pd.read_csv('资料表')#, index_col=0)
     print("Data loaded from expenses.csv.")
     #print(df)
 A = "\nPersonal Expense Tracker\n1.Add Transaction\n2. Edit Transaction\n3. Delete Transaction\n4.View Summary\n5.Save and Exit\nEnter your choice: "

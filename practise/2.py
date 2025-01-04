@@ -1,19 +1,23 @@
 import pandas as pd
 
+Data=(input("Date:") 
+      input("Category:")
+      input("Amount:")
+      input("Type:"))
+
+df = pd.DataFrame(Data)
+import os
+if os.path.isfile('资料表'):
+    df = pd.read_csv('资料表')#, index_col=0)
+    print("Data loaded from 资料库.")
+    #print(df)
 Data = {
     'Date': [], 
     'Category': [],
     'Amount': [],
     'Type': [] 
 }
-df = pd.DataFrame(Data)
-import os
-if os.path.isfile('资料表'):
-    df = pd.read_csv('资料表')#, index_col=0)
-    print("Data loaded from expenses.csv.")
-    #print(df)
-A = "\nPersonal Expense Tracker\n1.Add Transaction\n2. Edit Transaction\n3. Delete Transaction\n4.View Summary\n5.Save and Exit\nEnter your choice: "
-B = input(A)
+B = input(Data)
 while B != "5":
     if B == "1":
         print("Add Transaction")

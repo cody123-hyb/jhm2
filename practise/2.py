@@ -1,15 +1,17 @@
 import pandas as pd
 
-Data=(input("Date:") 
-      input("Category:")
-      input("Amount:")
-      input("Type:"))
+Data=(
+    input("Date:") 
+    input("Category:")
+    input("Amount:")
+    input("Type:"))
+
 
 df = pd.DataFrame(Data)
 import os
-if os.path.isfile('资料表'):
-    df = pd.read_csv('资料表')#, index_col=0)
-    print("Data loaded from 资料库.")
+if os.path.isfile('資料庫'):
+    df = pd.read_csv('資料庫')#, index_col=0)
+    print("Data loaded from 資料庫.")
     #print(df)
 Data = {
     'Date': [], 

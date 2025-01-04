@@ -1,11 +1,13 @@
 import pandas as pd
 
-Data=(
-    input("Date:") 
-    input("Category:")
-    input("Amount:")
-    input("Type:"))
+date = input("Date: ")
+category = input("Category: ")
+amount = input("Amount: ")
+type_ = input("Type: ")
 
+Data = (date, category, amount, type_)
+
+print(data)
 
 df = pd.DataFrame(Data)
 import os
@@ -13,12 +15,8 @@ if os.path.isfile('資料庫'):
     df = pd.read_csv('資料庫')#, index_col=0)
     print("Data loaded from 資料庫.")
     #print(df)
-Data = {
-    'Date': [], 
-    'Category': [],
-    'Amount': [],
-    'Type': [] 
-}
+input("Data")
+
 B = input(Data)
 while B != "5":
     if B == "1":

@@ -3,7 +3,7 @@ import pandas as pd
 date = input("Date: ")
 category = input("Category: ")
 amount = input("Amount: ")
-type_ = input("Type: ")
+type = input("Type: ")
 
 Data = (date, category, amount, type_)
 

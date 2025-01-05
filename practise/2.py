@@ -1,5 +1,5 @@
 import pandas as pd
-data_file = "expenses.csv"
+
 while True:
     print("1. 新增交易") 
     print("2. 編輯交易") 

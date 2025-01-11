@@ -23,8 +23,8 @@ def plot_weather_data(weather_data):
     humidity = weather_data['main']['humidity']
     wind_speed = weather_data['wind']['speed']
     weather_condition = weather_data['weather'][0]['description']
-    uv_index = "N/A"  # OpenWeatherMap 免费 API 不提供紫外线指数
-    
+    uv_index = weather_data['uv_index']
+
     # 打印天气数据
     print(f"Temperature: {temperature}°C")
     print(f"Humidity: {humidity}%")
@@ -32,20 +32,11 @@ def plot_weather_data(weather_data):
     print(f"Weather Condition: {weather_condition}")
     print(f"UV Index: {uv_index}")
     
-    # 绘制图表（这里只显示温度、湿度和风速）
+    # 绘制图表
     ax.plot([temperature], label='Temperature (°C)')
     ax.plot([humidity], label='Humidity (%)')
     ax.plot([wind_speed], label='Wind Speed (m/s)')
+    ax.plot(uv_index, label='UV Index')
     
     ax.legend()
     plt.show()
-
-def main():
-    city_name = input("Enter your city name:")
-    weather_data = get_weather_data(city_name)
-    if weather_data:
-        display_weather_chart(weather_data,city_name)
-
-if __name__ == "__main__":
-    main()
-

@@ -40,3 +40,7 @@ def plot_weather_data(weather_data):
     
     ax.legend()
     plt.show()
+
+    def main(): print() 
+    if __name__ == "__main__": 
+        main()

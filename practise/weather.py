@@ -40,6 +40,12 @@ def plot_weather_data(weather_data):
     ax.legend()
     plt.show()
 
+def main():
+    city_name = input("Enter your city name:")
+    weather_data = get_weather_data(city_name)
+    if weather_data:
+        display_weather_chart(weather_data,city_name)
+
 if __name__ == "__main__":
     main()
 

@@ -65,7 +65,7 @@ def view_summary():
     total_expense = df[df['Type'] == '支出']['Amount'].sum()
     total_income = df[df['Type'] == '收入']['Amount'].sum()
     balance = total_income - total_expense
-    print(f"\n總支出：{total_expense}")
+    print(f"總支出：{total_expense}")
     print(f"總收入：{total_income}")
     print(f"結餘：{balance}")
 

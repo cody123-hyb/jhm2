@@ -3,12 +3,12 @@ import matplotlib.pyplot as plt
 
 # 定义 OpenWeatherMap API 的基本信息
 api_key = '65e48f988ae30c4af07ee29855ec28f7'
-base_url = 'https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}'
+base_url = 'https://api.openweathermap.org/data/2.5/weather'
 
+def display_menu():
+    input("Enter you city name: ")
 
-input("Enter your city name: ")
-
-def get_weather_data(a):
+def get_weather_data(city_name):
     params = {
         'q': city_name,
         'appid': api_key,

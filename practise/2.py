@@ -29,8 +29,8 @@ def add_transaction():
     amount = input("請輸入金額：")
     while not amount.replace('.', '', 1).isdigit():
         amount = input("金額無效，請重新輸入：")
-    type_ = input("請輸入類型（收入/支出）：")
-    df.loc[len(df)] = [date, category, float(amount), type_]
+        type_ = input("請輸入類型（收入/支出）：")
+        df.loc[len(df)] = [date, category, float(amount), type_]
     print("交易新增成功。")
 
 

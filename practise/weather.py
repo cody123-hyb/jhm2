@@ -9,7 +9,7 @@ def get_weather_data(city_name):
     params = {
         'q': city_name,
         'appid': api_key,
-        'units': 'metric'  # 使用公制单位（摄氏度）
+        'units': 'metric'  
     }
     response = requests.get(base_url, params=params)
     return response.json()

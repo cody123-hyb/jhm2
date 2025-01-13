@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 api_key = '65e48f988ae30c4af07ee29855ec28f7'
 base_url = 'https://api.openweathermap.org/data/2.5/weather'
 
-def display_menu():
+def display_menu(city_name):
     input("Enter you city name: ")
 
 def get_weather_data(city_name):

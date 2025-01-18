@@ -3,7 +3,7 @@ second_question = input("Enter your choice (ice-cream / cookies / candies ): ")
 
 a = int(second_question)
 
-if first_question == "no" : 
+if first_question.lower() == "no" : 
     print("Good! Let's play games instead.")             
 
 else :
@@ -17,4 +17,3 @@ else :
     
     if () == "candies" :
         print("Don't eat too much.")
-

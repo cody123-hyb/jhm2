@@ -6,15 +6,15 @@ a = int(second_question)
 if first_question == "no" : 
     print("Good! Let's play games instead.")             
 
-elif first_question == "yes" :
+else :
     input("Enter your choice (ice-cream / cookies / candies ): ")
     
-    if b == "ice cream" :
+    if a == "ice cream" :
         print("Remeber to wash your hands.")
     
-    if b == "cookies" :
+    if a == "cookies" :
         print("Can you share with your friends？")
     
-    if b == "candies" :
+    if a == "candies" :
         print("Don't eat too much.")
 

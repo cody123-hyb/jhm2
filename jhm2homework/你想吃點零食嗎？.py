@@ -1,13 +1,12 @@
 first_question = input("Do you want some snacks (yes/no): ")
 second_question = input("Enter your choice (ice-cream / cookies / candies ): ")
 
-a = int(first_question)
-b = int(second_question)
+a = int(second_question)
 
-if a == "no" : 
+if first_question == "no" : 
     print("Good! Let's play games instead.")             
 
-elif a == "yes" :
+elif first_question == "yes" :
     input("Enter your choice (ice-cream / cookies / candies ): ")
     
     if b == "ice cream" :

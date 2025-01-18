@@ -9,12 +9,12 @@ if first_question == "no" :
 else :
     input("Enter your choice (ice-cream / cookies / candies ): ")
     
-    if a == "ice cream" :
+    if () == "ice-cream" :
         print("Remeber to wash your hands.")
     
-    if a == "cookies" :
+    if () == "cookies" :
         print("Can you share with your friends？")
     
-    if a == "candies" :
+    if () == "candies" :
         print("Don't eat too much.")
 

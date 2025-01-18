@@ -16,5 +16,5 @@ if a == "yes" :
     if b == "candies" :
         print("Don't eat too much.")
 
-if a == "no" : 
+elif a == "no" : 
     print("Good! Let's play games instead.")             

@@ -5,7 +5,7 @@ a = int(first_question)
 b = int(second_question)
 
 if a == "yes" :
-    input(second_question)
+    input("Enter your choice (ice-cream / cookies / candies ): ")
     
     if b == "ice cream" :
         print("Remeber to wash your hands.")
@@ -17,9 +17,4 @@ if a == "yes" :
         print("Don't eat too much.")
 
 if a == "no" : 
-    print("Good! Let's play games instead.")                
-
-
-    
-
-
+    print("Good! Let's play games instead.")             

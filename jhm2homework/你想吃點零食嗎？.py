@@ -1,18 +1,15 @@
-first_question = input("Do you want some snacks (yes/no): ")
-second_question = input("Enter your choice (ice-cream / cookies / candies ): ")
+first_question = input("Do you want some snacks? (yes/no): ").lower()
+if first_question == "no":
+    print("Good! Let's play games instead.")
 
-a=int(second_question)
-if first_question.lower() == "no" : 
-    print("Good! Let's play games instead.")             
+elif first_question == "yes":
+    second_question = input("Enter your choice (ice-cream / cookies / candies): ").lower()
+    
+    if second_question == "ice-cream":
+        print("Remember to wash your hands.")
 
-elif first_question.lower() == "yes" : 
-    input(a)
+    elif second_question == "cookies":
+        print("Can you share with your friends?")
     
-    if (a) == "ice-cream" :
-        print("Remeber to wash your hands.")
-    
-    elif (a) == "cookies" :
-        print("Can you share with your friends？")
-    
-    elif (a) == "candies" :
+    elif second_question == "candies":
         print("Don't eat too much.")

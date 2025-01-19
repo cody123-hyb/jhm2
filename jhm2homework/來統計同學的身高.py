@@ -34,4 +34,4 @@ max_number = number [0]
 for num in number : 
         if num < max_number :
                 max_number = num
-print("The taller student is", max_number)
+print("The average height of these students is", max_number ,"cm.")

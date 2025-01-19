@@ -34,10 +34,10 @@ sma_number = number [0]
 for num in number : 
         if num < sma_number :
                 sma_number = num
-print("The average height of these students is", sma_number, 2 ," cm.")
+print("The average height of these students is",f'{sma_number:.2f}'" cm.")
 hig_number = number [0]
 for num in number : 
         if num < hig_number :
                 hig_number = num
-print("The maximum height of these students is" ,hig_number, 2 ," cm.")     
+print("The maximum height of these students is",f'{hig_number:.2f}'" cm.")     
     

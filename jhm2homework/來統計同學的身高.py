@@ -32,6 +32,6 @@ print("End of Input")
 number = [a,b,c,d]
 max_number = number [0]
 for num in number : 
-        if a and b and c and d < max_numfber :
+        if num < max_number :
                 max_number = num
 print("The taller student is", max_number)

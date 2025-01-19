@@ -34,4 +34,6 @@ while time < 4 :
                     time +=1           
         break
 print("End of Input")
+number = [a,b,c,d]
+max_number = number [0]
 print("The taller student is", max_number)

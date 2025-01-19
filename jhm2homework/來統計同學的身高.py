@@ -1,5 +1,9 @@
 time = 0
-
+max_number = number [0]
+for num in number :
+        num = a and b and c and d 
+        if a and b and c and d < max_numfber :
+                max_number = num
 while time < 4 :
  a = int(input("Input the height of a student 1 in cm: "))
  if a < 0: 
@@ -30,7 +34,4 @@ while time < 4 :
                     time +=1            
         break
 print("End of Input")
-
-
-
-
+print("The taller student is", max_number)

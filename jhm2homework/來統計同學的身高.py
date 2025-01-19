@@ -29,6 +29,7 @@ while time < 4 :
                     print("Height is greater than 200cm.")  
                     time +=1            
         break
+print("End of Input")
 
 
 

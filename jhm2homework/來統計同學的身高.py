@@ -30,8 +30,14 @@ while time < 4 :
         break
 print("End of Input")
 number = [a,b,c,d]
-max_number = number [0]
+sma_number = number [0]
 for num in number : 
-        if num < max_number :
-                max_number = num
-print("The average height of these students is", max_number ,"cm.")
+        if num < sma_number :
+                sma_number = num
+print("The average height of these students is", sma_number,2 ," cm.")
+hig_number = number [0]
+for num in number : 
+        if num < hig_number :
+                hig_number = num
+print("The maximum height of these students is" ,hig_number,2 ," cm.")     
+    

@@ -1,6 +1,6 @@
 time = 0
 max_number = number [0]
-for num in number :
+for num in max_number :
         num = a and b and c and d 
         if a and b and c and d < max_numfber :
                 max_number = num
@@ -31,7 +31,7 @@ while time < 4 :
                     print("Height must be positive.") 
             elif d > 200: 
                     print("Height is greater than 200cm.")  
-                    time +=1            
+                    time +=1           
         break
 print("End of Input")
 print("The taller student is", max_number)

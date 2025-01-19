@@ -1,6 +1,5 @@
 time = 0
-max_number = a [0]
-for num in max_number :
+for num in number :
         num = a and b and c and d 
         if a and b and c and d < max_numfber :
                 max_number = num

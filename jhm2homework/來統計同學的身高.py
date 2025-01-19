@@ -28,7 +28,7 @@ while time < 4 :
             elif d > 200: 
                     print("Height is greater than 200cm.")  
                     time +=1            
-
+                    break
 
 
 

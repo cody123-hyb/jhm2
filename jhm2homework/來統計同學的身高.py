@@ -1,14 +1,33 @@
 times = 1
-number = []
+
 
 while times < 4 :
-    input("Input the height of a student {times} in cm: ")
-    if number < 0: 
+    a = input("Input the height of a student 1 in cm: ")
+    if a < 0: 
         print("Height must be positive.") 
-    elif number > 200: 
+    elif a > 200: 
         print("Height is greater than 200cm.") 
     else:
-        times += 1
+
+        b = input("Input the height of a student 2 in cm: ")
+        if b < 0: 
+            print("Height must be positive.") 
+        elif b > 200: 
+            print("Height is greater than 200cm.") 
+        else:
+
+            c = input("Input the height of a student 3 in cm: ")
+            if c < 0: 
+                print("Height must be positive.") 
+            elif c > 200: 
+                print("Height is greater than 200cm.") 
+            else:
+        
+                d = input("Input the height of a student 4 in cm: ")
+                if d < 0: 
+                    print("Height must be positive.") 
+                elif d > 200: 
+                    print("Height is greater than 200cm.")           
 
 print ("End of Input")
 

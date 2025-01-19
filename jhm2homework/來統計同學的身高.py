@@ -3,9 +3,9 @@ number = []
 
 while times < 4 :
     input("Input the height of a student {times} in cm: ")
-    if height < 0: 
+    if number < 0: 
         print("Height must be positive.") 
-    elif height > 200: 
+    elif number > 200: 
         print("Height is greater than 200cm.") 
     else:
         times += 1

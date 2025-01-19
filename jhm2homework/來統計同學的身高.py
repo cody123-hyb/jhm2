@@ -2,28 +2,28 @@ times = 1
 
 
 while times < 4 :
-    a = input("Input the height of a student 1 in cm: ")
+    a = int(input("Input the height of a student 1 in cm: "))
     if a < 0: 
         print("Height must be positive.") 
     elif a > 200: 
         print("Height is greater than 200cm.") 
     else:
 
-        b = input("Input the height of a student 2 in cm: ")
+        b = int(input("Input the height of a student 2 in cm: "))
         if b < 0: 
             print("Height must be positive.") 
         elif b > 200: 
             print("Height is greater than 200cm.") 
         else:
 
-            c = input("Input the height of a student 3 in cm: ")
+            c = int(input("Input the height of a student 3 in cm: "))
             if c < 0: 
                 print("Height must be positive.") 
             elif c > 200: 
                 print("Height is greater than 200cm.") 
             else:
         
-                d = input("Input the height of a student 4 in cm: ")
+                d = int(input("Input the height of a student 4 in cm: "))
                 if d < 0: 
                     print("Height must be positive.") 
                 elif d > 200: 

@@ -37,7 +37,7 @@ for num in number :
 print("The average height of these students is",f'{sma_number:.2f}'" cm.")
 hig_number = number [0]
 for num in number : 
-        if num < hig_number :
+        if num > hig_number :
                 hig_number = num
 print("The maximum height of these students is",f'{hig_number:.2f}'" cm.")     
     

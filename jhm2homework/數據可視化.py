@@ -1,5 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as plt
+import os
+
 file_name = 'csv文件1'
 if os.path.exists(file_name):
     df = pd.read_csv(file_name)

@@ -19,4 +19,19 @@ plt.xlabel('Month')
 plt.ylabel('Sales (in thousand dollars)')
 
 
+plt.show()fig, ax = plt.subplots(constrained_layout=True)
+
+
+bars = ax.bar(bar_labels, bar_values, color="salmon")
+
+
+ax.bar_label(bars, padding=3)
+
+
+ax.set_xlabel("X (unit)", fontweight="bold")
+ax.set_ylabel("Y (unit)", fontweight="bold")
+
+
+_ = ax.legend()
+
 plt.show()

@@ -4,7 +4,7 @@ import pandas as pd
 
 
 data = { 'Month': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-         'Sales': [50, 75, 60, 80, 90, 100, 110, 85, 95, 105, 70, 65] }
+         'Sales': [380,400,660,800,900,1200,1600,2200,1500,1100,600,250] }
 
 df = pd.DataFrame(data)
 df.to_csv('文件1.csv', index=False)

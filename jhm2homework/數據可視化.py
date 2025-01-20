@@ -6,7 +6,7 @@ import pandas as pd
 data = { 'Month': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
          'Sales': [50, 75, 60, 80, 90, 100, 110, 85, 95, 105, 70, 65] }
 df = pd.DataFrame(data)
-df = pd.read_csv('sales.csv')
+df = pd.read_csv('your_file.csv')
 
 
 plt.bar(df['Month'], df['Sales'], color='green', width=0.5)

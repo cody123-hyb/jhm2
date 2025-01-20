@@ -1,11 +1,16 @@
 import matplotlib.pyplot as plt
-import pandas as plt
-import os
+import pandas as pd
 
-file_name = 'csv文件1'
-if os.path.exists(file_name):
-    df = pd.read_csv(file_name)
 
-x = [Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Set,Oct,Nov,Dec]
-y = [0,500,1000,1500,2000]
-plt.plot(x,y,label='Data',color='b',marker='o')
+df = pd.read_csv('sales.csv')
+
+
+plt.bar(df['Month'], df['Sales'], color='green', width=0.5)
+
+
+plt.title('Bar Chart of Ice-cream Sales')
+plt.xlabel('Month')
+plt.ylabel('Sales (in thousand dollars)')
+
+
+plt.show()

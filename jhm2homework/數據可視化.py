@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-
+df = pd.DataFrame(columns=columns)
 df = pd.read_csv('sales.csv')
 
 

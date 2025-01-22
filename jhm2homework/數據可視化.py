@@ -11,10 +11,13 @@ data = {
 df = pd.DataFrame(data)
 df.to_csv('sales.csv', index=False)
 
+
+a = df['Month']
+b = df['Sales']
 colora = 'green'
-plt.bar(Month , Sales , color = colora , width=0.5)
+plt.bar(a,b,color = colora,width=0.5)
 plt.title("Bar Chart of ice-cream Sales")
 plt.xlabel("Month")
 plt.ylabel("Sales(in thousand dollars)")
-plt.xticks(x, ["Jan","feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"])
+
 plt.show()

@@ -1,5 +1,5 @@
 import pandas as pd
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 
 
 import pandas as pd
@@ -15,8 +15,8 @@ df = pd.read_csv('sales.csv')
 
 a = df['Montha']
 b = df['Sales']
-colora = 'green'
-plt.bar(a,b,color = colora,width=0.5)
+
+plt.bar(a,b,color = 'green',width=0.5)
 plt.title("Bar Chart of ice-cream Sales")
 plt.xlabel("Month")
 plt.ylabel("Sales(in thousand dollars)")

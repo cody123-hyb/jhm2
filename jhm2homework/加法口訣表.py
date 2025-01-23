@@ -6,9 +6,9 @@ for i in range (1 , a + 1):
     for j in (1 , a + 1):
         cs = j + i
         if cs < 10:
-            print(f'{1} + {i} = {cs}', end ='  ')
+            print(f'{} + {i} = {cs}', end ='  ')
         else: 
-            print(f'{1} + {i} = {cs}', end =' ')   
+            print(f'{} + {i} = {cs}', end =' ')   
     print( )
 
   

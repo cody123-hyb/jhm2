@@ -3,7 +3,7 @@ a = Sizea
 print("Addition Table")
 
 for i in range (1 , a + 1):
-    for j in (1 , a + 1):
+    for j in (5 , a + 1):
         cs = j + i
         if cs < 10:
             print(f'{j} + {i} = {cs}', end ='  ')

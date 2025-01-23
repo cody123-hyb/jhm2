@@ -4,6 +4,6 @@ print("Addition Table")
 
 for Size in a:
     if b == a + a :
-        print(b)
+        print(Size,end = " ")
         break
   

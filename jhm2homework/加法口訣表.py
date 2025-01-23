@@ -4,7 +4,7 @@ print("Addition Table")
 
 for i in range (1 , a + 1):
     for j in (1 , a + 1):
-        cs = j + i
+        cs = a + i
         print(f'{j} + {i} = {cs}\t', end =' ')
     print( )
 

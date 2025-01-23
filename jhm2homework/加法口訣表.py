@@ -4,8 +4,11 @@ print("Addition Table")
 
 for i in range (1 , a + 1):
     for j in (1 , a + 1):
-        cs = a + i
-        print(f'{j} + {i} = {cs}\t', end =' ')
+        cs = j + i
+        if cs < 10:
+            print(f'{j} + {i} = {cs}', end ='  ')
+        else: 
+            print(f'{j} + {i} = {cs}', end =' ')   
     print( )
 
   

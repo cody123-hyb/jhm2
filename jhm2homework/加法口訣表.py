@@ -1,18 +1,15 @@
-Sizea = int(input("Input Addition Table Size smaller 10: "))
-a = Sizea
-print("Addition Table")
+size = int(input("請輸入加法口訣表大小（小於 10 的正整數）："))
 
 print("------------------------------------------------------------")
 
+for b in range(size + 1):
+    
+    a = [f"{b} + {c} = { b + c }" for j in range(size + 1)]
 
-for i in range (1 , a + 1):
-    for j in (1 , a + 1):
-        cs = i + j
+    formatted_a = [f"{entry:<11}" for entry in a]
 
-        if cs < 10:
-            print(f'{i} + {j} = {cs}', end ='  ')
-        else: 
-            print(f'{i} + {j} = {cs}', end =' ')   
-    print( )
+
+
+    print("".join(formatted_row))
 
 print("------------------------------------------------------------")

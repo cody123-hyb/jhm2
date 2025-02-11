@@ -10,6 +10,6 @@ for b in range(size + 1):
 
 
 
-    print("".join(formatted_row))
+    print("".join(formatted_a))
 
 print("------------------------------------------------------------")

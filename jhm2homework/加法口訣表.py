@@ -1,4 +1,4 @@
-size = int(input("請輸入加法口訣表大小（小於 10 的正整數）："))
+size = int(input("Input Addition Table Size smaller 10："))
 
 print("------------------------------------------------------------")
 
